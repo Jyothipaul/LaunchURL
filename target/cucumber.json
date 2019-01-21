@@ -1,0 +1,380 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Open multi url",
+        "description": "",
+        "id": "launch-multi-url;open-multi-url;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4301433281,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch chrome Browser",
+            "match": {
+              "location": "TestStepDef.launch_chrome_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3085944335,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I access \"https://www.hsbc.co.uk/\" Website",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.hsbc.co.uk/",
+                  "offset": 10
+                }
+              ],
+              "location": "TestStepDef.step2(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 920249323,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I can see \"HSBC\" homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HSBC",
+                  "offset": 11
+                }
+              ],
+              "location": "TestStepDef.step3(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Open multi url",
+        "description": "",
+        "id": "launch-multi-url;open-multi-url;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2304949876,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch chrome Browser",
+            "match": {
+              "location": "TestStepDef.launch_chrome_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3562457741,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I access \"https://www.halifax.co.uk/\" Website",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.halifax.co.uk/",
+                  "offset": 10
+                }
+              ],
+              "location": "TestStepDef.step2(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 734129240,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I can see \"Halifax\" homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Halifax",
+                  "offset": 11
+                }
+              ],
+              "location": "TestStepDef.step3(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Launch Multi URL",
+    "description": "",
+    "id": "launch-multi-url",
+    "keyword": "Feature",
+    "uri": "Example.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Scenario 1 - Test scenario to launch facebook url",
+        "description": "",
+        "id": "launch-facebook-url;scenario-1---test-scenario-to-launch-facebook-url",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2378557802,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch chrome Browser",
+            "match": {
+              "location": "TestStepDef.launch_chrome_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1911441824,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch Facebook page",
+            "match": {
+              "location": "TestStepDef.facebook_URL_is_provided()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 722259604,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Close Chrome Browser",
+            "match": {
+              "location": "TestStepDef.close_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Scenario 2 - Test scenario to launch google url",
+        "description": "",
+        "id": "launch-facebook-url;scenario-2---test-scenario-to-launch-google-url",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2420960976,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Launch chrome Browser",
+            "match": {
+              "location": "TestStepDef.launch_chrome_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1853942253,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Launch Google page",
+            "match": {
+              "location": "TestStepDef.google_URL_is_provided()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 724622200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Close Chrome Browser",
+            "match": {
+              "location": "TestStepDef.close_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Scenario 3 - Test scenario to launch amazon url",
+        "description": "",
+        "id": "launch-facebook-url;scenario-3---test-scenario-to-launch-amazon-url",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2372579672,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Launch chrome Browser",
+            "match": {
+              "location": "TestStepDef.launch_chrome_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2396456474,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Launch ebay page",
+            "match": {
+              "location": "TestStepDef.ebay_URL_is_provided()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 718761482,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Close Chrome Browser",
+            "match": {
+              "location": "TestStepDef.close_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Scenario 4 - Test scenario to launch ebay url",
+        "description": "",
+        "id": "launch-facebook-url;scenario-4---test-scenario-to-launch-ebay-url",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2583493269,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Launch chrome Browser",
+            "match": {
+              "location": "TestStepDef.launch_chrome_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2052136416,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Launch ebay page",
+            "match": {
+              "location": "TestStepDef.ebay_URL_is_provided()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 760172816,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Close Chrome Browser",
+            "match": {
+              "location": "TestStepDef.close_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Scenario 5 - Test scenario to launch git url",
+        "description": "",
+        "id": "launch-facebook-url;scenario-5---test-scenario-to-launch-git-url",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2301028909,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Launch chrome Browser",
+            "match": {
+              "location": "TestStepDef.launch_chrome_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2596833423,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Launch git page",
+            "match": {
+              "location": "TestStepDef.git_URL_is_provided()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 740002685,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Close Chrome Browser",
+            "match": {
+              "location": "TestStepDef.close_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Launch Facebook URL",
+    "description": "",
+    "id": "launch-facebook-url",
+    "keyword": "Feature",
+    "uri": "LaunchURL.feature"
+  }
+]
